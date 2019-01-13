@@ -22,12 +22,12 @@ import javax.swing.border.TitledBorder;
  *2.객체다형성으로 이벤트발생/처리<br>
  *3.super를 써서 생성자호출(JFrame 다이얼로그이름)<br>
  *4.this 생성자 호출을 이용해서 Joptionpane 메세지 띄우기<br>
- *5.배열 이용해서 값사용=> 배열을 이용하기 위해 처리할 값 call by value<br>
- *6.배열을 이용한 값 저장 => List 와 call by reference를 이용한 VO처리 //이벤트처리 => call by reference<br>
- *7.상수는 singleton에 이용<br>
- *8.이벤트 다형성(Overriding 사용) VO에 생성자 Overload 사용<br>
+ *5.반복문 이용해서 값처리=> 로또번호처리  ==> set에 저장<br>
+ *6.반복/배열을 이용한 값 저장 => List에 call by reference를 이용한 VO처리 //이벤트처리 => call by reference<br>
+ *7.상수는 singleton에 이용(connection 연결//DAO여러개 생성막기)<br>
+ *8.이벤트 다형성(Overriding 사용) VO 인자있는 생성자( Overload 사용)<br>
  *9.JDBC 동작시 resultSet에서 getInt/getString 에 Wrapper 사용<br>
- *10. DB Table생성 // CTL,CSV 파일 생성( CTL파일 X)
+ *10. DB Table생성 // CTL,CSV 파일 생성( CTL파일  필요X)
  * 
  * @author Kong
  *

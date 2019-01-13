@@ -73,7 +73,7 @@ public class LottoEvt extends WindowAdapter implements ActionListener {
 	public void searchNum() {
 		try {
 			StringBuilder searchNumber = new StringBuilder();
-			List<LottoVO> list = le_dao.selectLotto();
+			List<LottoVO> list = le_dao.selectLotto(); //반환값이 커서의 마지막수인 리스트의 사이즈이므로 for문의 범위지정에 사용?.
 			
 			LottoVO lvo =null;
 			searchNumber.append("회차 ||  추첨일    |당첨자수|     액수          |     당첨번호\n\n\n");
