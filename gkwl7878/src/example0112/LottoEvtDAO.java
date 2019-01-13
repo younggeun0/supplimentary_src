@@ -51,11 +51,13 @@ public class LottoEvtDAO {
 			return list;
 			
 		}finally {
+			//////////////////////////////////////////rs 안끊음 ///////////////////////////////////////////////
 			if(pstmt!=null) {pstmt.close();}
 			if(con!=null) {con.close();}
 		}
 			
 	}
+	/////////////////////////////////// 단위테스트 끝나면 main함수 삭제 //////////////////////////////////////////
 	public static void main(String[] args) {
 		LottoEvtDAO le_dao = new LottoEvtDAO();
 		try {
