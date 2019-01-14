@@ -194,7 +194,7 @@ public class TypeToInterface extends JFrame implements ActionListener { /* 상�
 	}// repetiveStmt
 
 	/**
-	 * 다형성 - 오버로딩 : 하나의 클래스 안에서 메소드를 덮어쓴 메소드<br>
+	 * 다형성 - 오버로딩 : 하새로 정의 하는 것(매개변수만 다르게 작성)<br>
 	 * 
 	 * 작성법> : 메소드의 선언은 같고, 매개변수는 달라야 합니다.
 	 */
@@ -207,7 +207,7 @@ public class TypeToInterface extends JFrame implements ActionListener { /* 상�
 	}// useOverLoad
 
 	/**
-	 * 다형성 - 오버라이딩 : 수행결곽만 다릅니다. (상속관계)수퍼클래스의 메소드를 서브에서 덮어쓴 메소드입니다.
+	 * 다형성 - 오버라이딩 : 수행결과만 다릅니다. (상속관계)수퍼클래스의 메소드를 서브에서 덮어쓴 메소드입니다.
 	 * 
 	 * 작성법> : 수행코드는 달라야 합니다.<br>
 	 * 매개변수 포함 모든 메소드선언이 같아야 합니다.(단, 접근지정자는 광의로 변경가능)
