@@ -1,0 +1,48 @@
+@charset "EUC-KR";
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+
+#wrap {
+	width:1200px;
+	height:950px;
+	background-color:red;
+	margin:0px auto;
+}
+
+#header {
+	height:100px;
+	width: 100%;
+}
+
+#mainLogo {
+	height:100%;
+	width:250px;
+	float:left;
+}
+
+#header-nav {
+	width:950px;
+	height:100%;
+	float:left;
+}
+
+#informMenu {
+	height:30px;
+	width:100%;
+	text-align:right;
+	padding-right:5px;
+}
+
+#navigation {
+	height:70px;
+	width:100%;
+}
+
+#sub-nav {
+	height:40px;
+	width:100%;
+	background-color:green;
+}
