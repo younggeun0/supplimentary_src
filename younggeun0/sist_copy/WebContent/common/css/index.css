@@ -23,6 +23,12 @@ a {
 	float:left;
 }
 
+#container {
+	width:1200px;
+	height:700px;
+	background-color:limegreen;
+}
+
 #header-nav {
 	width:950px;
 	height:100%;
@@ -35,13 +41,6 @@ a {
 	font-size: 12px;
 	padding-top:15px;
 	padding-left: 560px;
-}
-
-#mainBanner {
-	width:1200px;
-	height:330px;
-	margin-top:5px;
-	background-color: blue;
 }
 
 #navigation {
@@ -58,3 +57,4 @@ a {
 	width:100%;
 	background-color: #00A2E2;
 }
+

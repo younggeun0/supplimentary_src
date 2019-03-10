@@ -5,9 +5,13 @@
 <title>카피-쌍용교육센터</title>
 <link rel="stylesheet" type="text/css" href="common/css/index.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript" src="jquery-1.4.2.js"></script>
-<script type="text/javascript" src="coin-slider.min.js"></script>
-<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+<script type="text/javascript" src="common/js/coin-slider.min.js"></script>
+<script type="text/javascript">
+     $(document).ready(function() {
+    $('#coin-slider').coinslider({  width: 1200, effect: 'random', navigation: false });
+  });
+</script>
+<link rel="stylesheet" href="common/css/coin-slider-styles.css" type="text/css" />
 
 </head>
 <body>
@@ -35,7 +39,30 @@
 	
 	</div>
 	<div id="container">
-		<div id="mainBanner">
+		<div id='coin-slider'>
+  		<a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner0.png' >
+  		</a>
+  		<a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner1.png' >
+  		</a>
+  		<a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner2.png' >
+  		</a>
+		  <a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner3.png' >
+		  </a>
+		  <a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner4.png' >
+		  </a>
+  		</a>
+		  <a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner5.png' >
+		  </a>
+		  <a href="#void" target="_blank">
+		    <img src='http://localhost:8080/sist_copy/common/images/index/s_big_banner6.png' >
+		  </a>
+</div>
 		
 		</div>
 	</div>
